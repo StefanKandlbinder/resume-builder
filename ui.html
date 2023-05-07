@@ -1,0 +1,7 @@
+<h2>Design Tokens Doc Generator</h2>
+<button id="getTokens">Get Tokens</button>
+<script>
+  document.getElementById('getTokens').onclick = () => {
+    parent.postMessage({ pluginMessage: { type: 'get-tokens' } }, '*');
+  };
+</script>

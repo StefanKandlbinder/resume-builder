@@ -1,0 +1,10 @@
+{
+  "name": "Design  Tokens Doc Generator",
+  "id": "1235122085574752780",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "capabilities": [],
+  "enableProposedApi": false,
+  "editorType": ["figma"],
+  "ui": "ui.html"
+}

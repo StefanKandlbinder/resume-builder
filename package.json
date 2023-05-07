@@ -1,0 +1,25 @@
+{
+  "name": "Design--Tokens-Doc-Generator",
+  "version": "1.0.0",
+  "description": "Your Figma Plugin",
+  "main": "code.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "*",
+    "@types/node": "^18.16.3",
+    "ts-loader": "^9.4.2",
+    "typescript": "^5.0.4",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "google-auth-library": "^8.8.0",
+    "googleapis": "^118.0.0"
+  }
+}
